@@ -10,11 +10,21 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="smile" />
         </main>
-        <footer className="footer">
-          {" "}
-          <small> Coded by DiJonnae </small>{" "}
+        <footer className="App-footer">
+          <small>
+            Coded by DiJonnae and{" "}
+            <a
+              href="https://github.com/dijneal/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              open sourced{" "}
+            </a>{" "}
+            on GitHub
+          </small>
         </footer>
       </div>
     </div>
