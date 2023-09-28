@@ -1,3 +1,8 @@
+.Dictionary h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
 .Dictionary section {
   background: white;
   padding: 30px;
